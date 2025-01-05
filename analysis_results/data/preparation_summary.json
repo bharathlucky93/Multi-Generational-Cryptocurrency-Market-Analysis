@@ -1,0 +1,19 @@
+{
+    "metrics_added": [
+        "volatility_30d",
+        "volatility_90d",
+        "momentum_14d",
+        "momentum_30d",
+        "volume_ma20",
+        "volume_ma50",
+        "price_to_ma50"
+    ],
+    "data_shape": [
+        1338,
+        54
+    ],
+    "date_range": {
+        "start": "2021-01-01",
+        "end": "2024-08-30"
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "statistics": {
+        "btc_price": {
+            "daily_volatility": 0.0332002493307656,
+            "annualized_volatility": 0.5270376191672662,
+            "variance": 0.0011022565556250015,
+            "mean_return": 0.0010729318682674695,
+            "median_return": -7.888200991290617e-06,
+            "quartiles": {
+                "0.25": -0.01371172952560007,
+                "0.75": 0.016018176957715236
+            },
+            "skewness": 0.11833607576588756,
+            "kurtosis": 3.374524702416742
+        },
+        "eth_price": {
+            "daily_volatility": 0.042673567213001924,
+            "annualized_volatility": 0.6774218784096167,
+            "variance": 0.0018210333386825927,
+            "mean_return": 0.0018375183545146793,
+            "median_return": 0.00045616350203236955,
+            "quartiles": {
+                "0.25": -0.017753922378199838,
+                "0.75": 0.02147201191510484
+            },
+            "skewness": 0.18226535735827823,
+            "kurtosis": 5.438563322775204
+        },
+        "sol_price": {
+            "daily_volatility": 0.06450485626423155,
+            "annualized_volatility": 1.0239828481867417,
+            "variance": 0.004160876481669172,
+            "mean_return": 0.005303734242085251,
+            "median_return": 0.00036571698208964776,
+            "quartiles": {
+                "0.25": -0.03024428899199283,
+                "0.75": 0.03500419557557666
+            },
+            "skewness": 0.37964994866826074,
+            "kurtosis": 5.124166693522451
+        }
+    },
+    "correlations": {
+        "price": {
+            "btc_price": {
+                "btc_price": 1.0,
+                "eth_price": 0.8142407952846366,
+                "sol_price": 0.7647238299760811
+            },
+            "eth_price": {
+                "btc_price": 0.8142407952846366,
+                "eth_price": 1.0,
+                "sol_price": 0.893434241395264
+            },
+            "sol_price": {
+                "btc_price": 0.7647238299760811,
+                "eth_price": 0.893434241395264,
+                "sol_price": 1.0
+            }
+        },
+        "volume": {
+            "btc_volume": {
+                "btc_volume": 1.0,
+                "eth_volume": 0.8534679836069373,
+                "sol_volume": -0.030820562900696746
+            },
+            "eth_volume": {
+                "btc_volume": 0.8534679836069373,
+                "eth_volume": 1.0,
+                "sol_volume": -0.10928582119666953
+            },
+            "sol_volume": {
+                "btc_volume": -0.030820562900696746,
+                "eth_volume": -0.10928582119666953,
+                "sol_volume": 1.0
+            }
+        },
+        "returns": {
+            "btc_price_return": {
+                "btc_price_return": 1.0,
+                "eth_price_return": 0.8098145210503896,
+                "sol_price_return": 0.5683894564520816
+            },
+            "eth_price_return": {
+                "btc_price_return": 0.8098145210503896,
+                "eth_price_return": 1.0,
+                "sol_price_return": 0.619946128426513
+            },
+            "sol_price_return": {
+                "btc_price_return": 0.5683894564520816,
+                "eth_price_return": 0.619946128426513,
+                "sol_price_return": 1.0
+            }
+        }
+    },
+    "data_info": {
+        "start_date": "2021-01-01",
+        "end_date": "2024-08-30",
+        "total_records": 1338
+    }
+}
